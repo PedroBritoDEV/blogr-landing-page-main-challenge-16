@@ -1,0 +1,193 @@
+@media (max-width: 1150px) {
+  .illustration-editor {
+    width: 800px;
+  }
+  .desktop-image img{
+    width: 800px;
+  }
+}
+@media (max-width: 1000px) {
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  
+  header .header-section nav .nav-links{ 
+    width: 90%;
+    padding: 30px;
+    margin-left: 0;
+    background-color: white;    
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+  }
+  .product-height {
+    height: 435px!important;
+  }
+  .product-active {
+      top: 550px!important;
+  }
+
+  .company-active {
+    top: 510px!important;
+  }
+  .company-height {
+    height: 400px;
+  }
+
+  .connect-active {
+    top: 465px!important;
+  }
+  .connect-height {
+    height: 350px;
+  }
+  .nav-links div ul{
+    top: 190px;
+    background-color: hsla(207, 7%, 75%, 0.405);
+    width: 80%;
+    left: 10%;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .header-section nav .nav-links div {
+    margin-right: 0;
+  }
+  header .header-section nav .nav-links div p{
+    color: black;
+  }
+  header .header-section nav .nav-buttons {
+    position: absolute;
+    z-index: 1;
+    top: 270px;
+    width: 90%;
+    padding: 20px 0;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 14px 11px 0px #00000036;
+  }
+  
+  header .header-section nav .nav-buttons .login {
+    margin-right: 0;
+    color: black;
+    width: 140px;
+  }
+  header .header-section nav .nav-buttons .sign-up {
+    background-image: linear-gradient(to right, var(--red-gradient1), var(--red-gradient2));
+    color: white;
+  }
+  header .header-section nav .button-menu {
+    display: inline-block;
+  }
+  header .header-section nav .nav-links div img {
+    filter: brightness(10%);
+  }
+  main .first-section .Fsection-content {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .illustration-editor {
+    position: unset;
+    width: auto;
+    margin: 50px 0;
+  }
+  main .first-section h2 {
+   margin: 0;
+  }
+
+  main .second-section {
+    height: 600px;
+    margin-top: 0;
+  }
+  main .second-section::before {
+    background-position: 50% 280%;
+    background-size: 750px;
+    border-radius: 0 4em 0 4em;
+  }
+  main .second-section .Ssection-content {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  main .second-section .Ssection-content picture {
+    margin-top: -270px;
+    max-width: 550px;
+    height: auto;
+  }
+  main .second-section .Ssection-content picture img {
+    width: 100%;
+  }
+
+  main .third-section .desktop-image {
+    position: unset;
+    max-width: 800px;
+    height: auto;
+  }
+  main .third-section .desktop-image img {
+    width: 100%;
+  }
+  
+  main .third-section .Tsection-content {
+    flex-direction: column;
+    justify-content: space-around
+  }
+  footer {
+    height: 880px;
+  }
+  footer .footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-section div ul .tittle {
+    margin-bottom: 30px;
+  }
+  footer .footer-section div ul li {
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  header { 
+    background-image: linear-gradient(to bottom, var(--red-gradient1), var(--red-gradient2));
+  }
+  header::after {
+    background-image: url(../images/bg-pattern-intro-mobile.svg);
+    background-position: 37% 35%;
+    background-size: 350%;
+  }
+}
+@media (max-width: 600px) {
+  main .second-section .Ssection-content picture {
+    margin-top: -200px;
+    
+  }
+  
+}
+@media (max-width: 500px) {
+  header .header-section .header-content h1  {
+    font-size: 2em;
+  }
+  h2 {/*  subtitles */
+    font-size: 1.7em;
+  }
+ main .first-section .Fsection-content {
+    padding: 100px 0 30px 0;
+  }
+  main .second-section .Ssection-content {
+    
+    margin-top: 0;
+  }
+}
+@media (max-width: 450px) {
+  main .second-section .Ssection-content picture {
+    margin-top: -150px;
+    
+  }
+ 
+}
